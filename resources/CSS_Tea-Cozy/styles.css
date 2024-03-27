@@ -182,16 +182,3 @@ footer {
     margin: 1.4rem 20px 1rem;
     width: max-content;
 }
-
-@media only screen and (max-width: 430px) {
-    .contact {
-        margin-left: 70%;
-        width: max-content;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .feautured {
-        margin-left: 110%;
-    }
-}
