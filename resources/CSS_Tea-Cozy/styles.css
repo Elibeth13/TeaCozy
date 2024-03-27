@@ -49,7 +49,7 @@ main {
 }
 
 .hero {
-    background-image: url("../resources/images_TeaCozy_project/img-mission-background.jpg");
+    background-image: url(../resources/images_TeaCozy_project/img-mission-background.jpg);
     background-position: center;
     height: 700px;
     width: 1200px;
@@ -126,7 +126,7 @@ p {
 
 .locations {
     display: flex;
-    background-image: url("../resources/images_TeaCozy_project/img-locations-background.jpg");
+    background-image: url(resources/images_TeaCozy_project/img-locations-background.jpg);
     background-position: 100% 26%;
     flex-direction: column;
     height: 500px;
