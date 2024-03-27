@@ -1,0 +1,199 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+header, nav {
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+
+a#menu {
+    padding-right: 1.15rem;
+    font-size: 20px;
+}
+
+.navigation-menu {
+    padding-right: 15px;
+    cursor: pointer;;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#logo {
+    height: 50px;
+    object-fit:scale-down
+}
+
+main {
+    margin-top: 69px;
+}
+
+.hero {
+    background-image: url("/Users/elibe/DevProjects_Front-End/Tea-Cozy/resources/images/img-mission-background.jpg");
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 3rem;
+    overflow: hidden;
+
+}
+
+#mission {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: smaller;
+    margin-top: 1.6rem;
+}
+
+.feautured {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 4rem auto 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#feautured-title {
+    margin: 10px;
+    height: 4.6rem;
+    text-align: center;
+    width: max-content;
+}
+
+.feautured-gallery {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+#feautured-img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    align-content: space-between;
+    margin: 10px 0.5rem;
+}
+
+.locations {
+    display: flex;
+    background-image: url(/Users/elibe/DevProjects_Front-End/Tea-Cozy/resources/images/img-locations-background.jpg);
+    background-position: 100% 26%;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+#locations-title {
+    background-color: transparent;
+    margin-bottom: 15px;
+    margin-top: 1.6rem;
+}
+
+.locations-address {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+}
+
+#location-box {
+    width: 300px;
+    height: fit-content;
+    display: block;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0.3rem;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.contact-info {
+    margin-top: 0.85rem;
+}
+
+footer {
+    float: left;
+    margin-left: 20px;
+    font-size: 0.85rem;
+    font-weight: bolder;
+    margin: 1.4rem 20px 1rem;
+    width: max-content;
+}
+
+@media only screen and (max-width: 430px) {
+    .contact {
+        margin-left: 70%;
+        width: max-content;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .feautured {
+        margin-left: 110%;
+    }
+}
