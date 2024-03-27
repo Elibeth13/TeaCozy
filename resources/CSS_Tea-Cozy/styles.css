@@ -100,7 +100,7 @@ p {
 
 .feautured-gallery {
     display: flex;
-    margin: 0px;
+    margin: auto;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
@@ -157,6 +157,7 @@ p {
     height: 200px;
     text-align: center;
     margin-top: 0.3rem;
+    margin: auto;
     padding-top: 1rem;
     width:1200px;
 }
