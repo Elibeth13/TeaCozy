@@ -153,17 +153,17 @@ p {
     margin-right: 20px;
 }
 
-.contact {
-    height: 200px;
-    text-align: center;
-    margin-top: 0.3rem;
+#contact-title {
+    padding-top: 0.3rem;
     margin: auto;
-    padding-top: 1rem;
-    width:1200px;
+    width: 1200px;
+    text-align: center;
 }
-
 .contact-info {
-    margin-top: 0.85rem;
+    padding-top: 0.85rem;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
 }
 
 footer {
