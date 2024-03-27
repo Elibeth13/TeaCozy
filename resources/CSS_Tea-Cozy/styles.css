@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ header, nav {
 
 a#menu {
     padding-right: 1.15rem;
-    font-size: 20px;
+    font-size: 0.95rem;
 }
 
 .navigation-menu {
@@ -91,15 +91,6 @@ p {
     margin-top: 1.6rem;
 }
 
-.feautured {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: 4rem auto 0px;
-    align-items: center;
-    justify-content: center;
-}
-
 #feautured-title {
     margin: auto;
     height: 4.6rem;
@@ -113,7 +104,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    width: 100%;
+    width: 1200px;
 }
 
 #feautured-img {
@@ -177,7 +168,7 @@ p {
 footer {
     float: left;
     margin-left: 20px;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: bolder;
     margin: 1.4rem 20px 1rem;
     width: max-content;
